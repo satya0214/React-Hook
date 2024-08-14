@@ -1,0 +1,33 @@
+.btn-container {
+    height: 100vh;
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    height: 200px;
+    width: 200px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-inc {
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: lightgreen;
+    font-size: 25px;
+    border: none;
+}
+
+.btn-dec {
+    height: 40px;
+    width: 60px;
+    border-radius: 10px;
+    background-color: tomato;
+    font-size: 25px;
+    border: none;
+}
